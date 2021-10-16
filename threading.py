@@ -1,7 +1,11 @@
 from threading import Thread
 from random import choice
 import time
- 
+
+author = 'Jencent Dizon'
+link = 'https://github.com/I-am-Programmer-101'
+print("Author:",author,"\nLink:",link)
+
 data = [90,81,78,95,79,72,85]
 
 class MyThread(Thread):
